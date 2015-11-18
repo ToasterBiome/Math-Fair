@@ -31,6 +31,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\scorefont</font>
+    <font>fonts\questionfont</font>
   </fonts>
   <objects name="objects">
     <object>objects\answer01</object>
@@ -48,6 +49,7 @@
     <object>objects\restart_object</object>
     <object>objects\logo</object>
     <object>objects\crash_object</object>
+    <object>objects\rules</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\start</room>

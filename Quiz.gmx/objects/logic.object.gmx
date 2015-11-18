@@ -53,7 +53,7 @@ old_randval = 9999;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>60</string>
           </argument>
         </arguments>
       </action>
@@ -139,12 +139,11 @@ old_randval = 9999;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>    healthbar.health -= 3.333333333333333333333333333333333333333;
+            <string>    healthbar.health -= 3.333333333333333333333333333333333333333 / 2;
     alarm[0]=room_speed;
     timerhealth -= 1
     
     if healthbar.health &lt;= 0 {
-    lives = score - 1
     room_goto_next();
     }
 </string>
@@ -272,6 +271,30 @@ old_randval = 9999;
       </action>
       <action>
         <libid>1</libid>
+        <id>526</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_font</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>12</kind>
+            <font>questionfont</font>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>514</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -295,6 +318,30 @@ old_randval = 9999;
           <argument>
             <kind>0</kind>
             <string>700</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>526</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_font</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>12</kind>
+            <font>scorefont</font>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
@@ -351,6 +398,29 @@ old_randval = 9999;
           <argument>
             <kind>4</kind>
             <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="107">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>keyboard_string = ""
+</string>
           </argument>
         </arguments>
       </action>
