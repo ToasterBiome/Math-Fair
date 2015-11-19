@@ -55,7 +55,6 @@
     <instance objName="medium_object" x="640" y="704" name="inst_2B1D6122" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="hard_object" x="1024" y="704" name="inst_1CC36140" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="logo" x="-32" y="-384" name="inst_8EFAD62E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="crash_object" x="640" y="672" name="inst_19D14F31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rules" x="352" y="768" name="inst_60CE8DDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

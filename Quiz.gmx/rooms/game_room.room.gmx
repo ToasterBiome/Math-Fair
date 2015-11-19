@@ -53,6 +53,7 @@
   <instances>
     <instance objName="healthbar" x="1248" y="448" name="inst_E73F304F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="logic" x="320" y="384" name="inst_78ABFB51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="text_box" x="640" y="780" name="inst_BDA77A05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

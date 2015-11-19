@@ -29,6 +29,7 @@
 healthbar.health = 100;
 globalvar old_randval;
 old_randval = 9999;
+keyboard_string = ""
 </string>
           </argument>
         </arguments>
@@ -317,7 +318,7 @@ old_randval = 9999;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>700</string>
+            <string>650</string>
           </argument>
         </arguments>
       </action>
@@ -365,42 +366,6 @@ old_randval = 9999;
           </argument>
         </arguments>
       </action>
-      <action>
-        <libid>1</libid>
-        <id>511</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_draw_rectangle</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>625</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>768</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>655</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>808</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>1</string>
-          </argument>
-        </arguments>
-      </action>
     </event>
     <event eventtype="9" enumb="107">
       <action>
@@ -420,6 +385,30 @@ old_randval = 9999;
           <argument>
             <kind>1</kind>
             <string>keyboard_string = ""
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="78">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>script_execute(question_logic)
+keyboard_string = "";
 </string>
           </argument>
         </arguments>

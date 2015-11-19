@@ -23,6 +23,7 @@
     </sprites>
     <sprite>sprites\logo_sprite</sprite>
     <sprite>sprites\crash</sprite>
+    <sprite>sprites\text_box_sprite</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -50,6 +51,7 @@
     <object>objects\logo</object>
     <object>objects\crash_object</object>
     <object>objects\rules</object>
+    <object>objects\text_box</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\start</room>
